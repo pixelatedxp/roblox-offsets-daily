@@ -1,13 +1,13 @@
 # Roblox Offsets Daily
 
 ![Status](https://img.shields.io/badge/Status-Functional-success)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--03%2019:42:22%20UTC-blue)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--03%2019:51:16%20UTC-blue)
 ![Roblox Version](https://img.shields.io/badge/Roblox%20Version-version--760d064d05424689-orange)
 
 Automatically dumped daily Roblox offsets for educational and research purposes.
 
 ## Latest Information
-- **Last Successful Update:** 2026-03-03 19:42:22 UTC
+- **Last Successful Update:** 2026-03-03 19:51:16 UTC
 - **Roblox Client Version:** version-760d064d05424689
 - **Update Frequency:** Every 12-24 hours (Max 26h)
 - **Current Status:** Functional (Successfully dumped)
@@ -33,4 +33,4 @@ Automatically dumped daily Roblox offsets for educational and research purposes.
 * **Creator:** Jonah (jonahw on Discord)
 
 ## Disclaimer
-> **Disclaimer:** This repository is for educational and research purposes only. Using these offsets to modify game memory may violate the Terms of Service of the software being analyzed. The maintainer is not responsible for any bans or legal actions resulting from the use of this data.
+> ⚠️ **Disclaimer:** This repository is for educational and research purposes only. Using these offsets to modify game memory may violate the Terms of Service of the software being analyzed. The maintainer is not responsible for any bans or legal actions resulting from the use of this data.
