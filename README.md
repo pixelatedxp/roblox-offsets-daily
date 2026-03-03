@@ -1,8 +1,14 @@
 # Roblox Offsets Daily
 
+[![Website](https://img.shields.io/badge/Website-Live_Dashboard-00f0ff?style=flat&logo=github)](https://pixelatedxp.github.io/roblox-offsets-daily/)
 ![Status](https://img.shields.io/badge/Status-Functional-success)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--03%2019:51:16%20UTC-blue)
 ![Roblox Version](https://img.shields.io/badge/Roblox%20Version-version--760d064d05424689-orange)
+
+## 🌐 Live Dashboard
+View the active version, track API status, and download offsets on the **[Web Dashboard](https://pixelatedxp.github.io/roblox-offsets-daily/)**.
+
+![Dashboard Preview](assets/screenshot1.png)
 
 Automatically dumped daily Roblox offsets for educational and research purposes.
 
