@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Offsets Daily</title>
+    <!-- Modern Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* The Glass Terminal Theme */
+            --bg: #0B0E14;
+            --text-main: #E2E8F0;
+            --text-muted: #64748B;
+            --accent-main: #00f0ff; /* Neon Blue */
+            --accent-secondary: #b624ff; /* Electric Purple */
+            --card-bg: rgba(15, 20, 30, 0.4);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --card-hover: rgba(0, 240, 255, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', system-ui, sans-serif;
+            scrollbar-width: thin;
+            scrollbar-color: var(--accent-main) rgba(0,0,0,0.2);
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            /* Subtle Terminal Grid */
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            background-position: center top;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem 1.5rem;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Ambient Glows */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -20%;
+            left: -10%;
+            width: 50vw;
+            height: 50vw;
+            background: radial-gradient(circle, rgba(0, 240, 255, 0.08) 0%, transparent 60%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        body::after {
+            content: '';
+            position: fixed;
+            bottom: -20%;
+            right: -10%;
+            width: 50vw;
+            height: 50vw;
+            background: radial-gradient(circle, rgba(182, 36, 255, 0.08) 0%, transparent 60%);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background: rgba(11, 14, 20, 0.6);
+            border-radius: 20px;
+            border: 1px solid var(--card-border);
+            padding: 2.5rem;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--card-border);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            background: linear-gradient(135deg, var(--accent-main), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(0, 240, 255, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .status-badge {
+            background: rgba(16, 185, 129, 0.1);
+            color: #10B981;
+            padding: 0.5rem 1.25rem;
+            border-radius: 30px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .status-badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #10B981;
+            box-shadow: 0 0 10px #10B981;
+            animation: blink 2s infinite ease-in-out;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .live-pulse {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .live-pulse h2 {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        #version-display {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: #fff;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+
+        .section-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .section-title::before {
+            content: '';
+            display: block;
+            width: 6px;
+            height: 24px;
+            background: var(--accent-main);
+            border-radius: 4px;
+            box-shadow: 0 0 10px var(--accent-main);
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text-main);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 50% 0%, var(--card-hover), transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-main);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 240, 255, 0.15);
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .card span {
+            font-size: 1.25rem;
+            font-weight: 600;
+            z-index: 1;
+        }
+
+        .card small {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+            z-index: 1;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 2.5rem;
+        }
+
+        @media (max-width: 800px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .terminal-box {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .terminal-header {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--card-border);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .terminal-body {
+            height: 350px;
+            overflow-y: auto;
+            padding: 1rem;
+        }
+
+        /* Custom Scrollbar for Terminals */
+        .terminal-body::-webkit-scrollbar { width: 6px; }
+        .terminal-body::-webkit-scrollbar-track { background: transparent; }
+        .terminal-body::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 10px; }
+        .terminal-body:hover::-webkit-scrollbar-thumb { background: rgba(0, 240, 255, 0.3); }
+
+        .offset-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.875rem;
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .offset-item:hover {
+            background: rgba(255,255,255,0.05);
+        }
+
+        .offset-name {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-main);
+            font-size: 0.875rem;
+        }
+
+        .offset-value {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .hex-code {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-main);
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+        }
+
+        .copy-btn {
+            background: transparent;
+            border: 1px solid var(--card-border);
+            color: var(--text-muted);
+            padding: 0.4rem 0.75rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .copy-btn:hover {
+            border-color: var(--accent-main);
+            color: var(--accent-main);
+            background: rgba(0, 240, 255, 0.05);
+        }
+
+        #change-log {
+            font-family: 'JetBrains Mono', monospace;
+            white-space: pre-wrap;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            line-height: 1.6;
+        }
+
+        .diff-added { color: #10B981; }
+        .diff-removed { color: #EF4444; }
+        .diff-changed { color: #F59E0B; }
+
+        /* Toast Notification */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: rgba(0, 240, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--accent-main);
+            color: var(--text-main);
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            box-shadow: 0 10px 30px rgba(0, 240, 255, 0.2);
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            z-index: 1000;
+        }
+
+        .toast::before {
+            content: '✓';
+            color: var(--accent-main);
+            font-size: 1.2rem;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+                Roblox Offsets
+            </h1>
+            <div class="status-badge" id="api-status">Connecting...</div>
+        </header>
+
+        <div class="live-pulse">
+            <h2>The Live Pulse</h2>
+            <div id="version-display">Scanning...</div>
+        </div>
+
+        <h3 class="section-title">Quick Action Cards</h3>
+        <div class="cards-grid">
+            <a href="https://raw.githubusercontent.com/pixelatedxp/roblox-offsets-daily/main/offsets.h" target="_blank" class="card">
+                <span>C++ Header</span>
+                <small>Internal DLL / External Cheat</small>
+            </a>
+            <a href="https://raw.githubusercontent.com/pixelatedxp/roblox-offsets-daily/main/offsets.py" target="_blank" class="card">
+                <span>Python Script</span>
+                <small>External Botting / Memory Reading</small>
+            </a>
+            <a href="https://raw.githubusercontent.com/pixelatedxp/roblox-offsets-daily/main/offsets.cs" target="_blank" class="card">
+                <span>C# Source</span>
+                <small>Windows Forms / External Tools</small>
+            </a>
+            <a href="https://raw.githubusercontent.com/pixelatedxp/roblox-offsets-daily/main/offsets.json" target="_blank" class="card">
+                <span>JSON Data</span>
+                <small>Universal / Web Applications</small>
+            </a>
+        </div>
+
+        <div class="content-grid">
+            <div>
+                <h3 class="section-title">Memory Table</h3>
+                <div class="terminal-box">
+                    <div class="terminal-header">
+                        <span>// offsets.json</span>
+                        <span>READ ONLY</span>
+                    </div>
+                    <div class="terminal-body" id="offset-list-container">
+                        <div style="text-align: center; color: var(--text-muted); margin-top: 2rem; font-family: monospace;">Awaiting payload...</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="section-title">The Change Log</h3>
+                <div class="terminal-box">
+                    <div class="terminal-header">
+                        <span>// offset_changes.txt</span>
+                        <span>DIFF TRACE</span>
+                    </div>
+                    <div class="terminal-body">
+                        <pre id="change-log">Awaiting logs...</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast">Copied hex to clipboard</div>
+
+    <script>
+        const REPO_URL_BASE = 'https://raw.githubusercontent.com/pixelatedxp/roblox-offsets-daily/main';
+        
+        async function loadData() {
+            try {
+                // Fetch JSON payload
+                const offsetRes = await fetch(`${REPO_URL_BASE}/offsets.json?t=${new Date().getTime()}`);
+                if (!offsetRes.ok) throw new Error("Failed to fetch JSON");
+                const offsetData = await offsetRes.json();
+                
+                // Set Version
+                const version = offsetData.metadata?.roblox_version || "Unknown";
+                document.getElementById('version-display').innerText = version;
+
+                // Render Table
+                renderOffsets(offsetData.offsets);
+
+                // Fetch Changelog 
+                const logRes = await fetch(`${REPO_URL_BASE}/offset_changes.txt?t=${new Date().getTime()}`);
+                if (logRes.ok) {
+                    const logText = await logRes.text();
+                    
+                    // Add basic syntax highlighting to diffs
+                    let coloredLog = logText
+                        .replace(/\[NEW\]/g, '<span class="diff-added">[NEW]</span>')
+                        .replace(/\[REMOVED\]/g, '<span class="diff-removed">[REMOVED]</span>')
+                        .replace(/→/g, '<span class="diff-changed">→</span>');
+                        
+                    document.getElementById('change-log').innerHTML = coloredLog || "No recent changes.";
+                } else {
+                    document.getElementById('change-log').innerText = "Running first-time initialization...";
+                }
+
+                // Set Status Badge success
+                const badge = document.getElementById('api-status');
+                badge.innerText = 'Operational';
+                badge.style.color = '#10B981';
+                badge.style.borderColor = 'rgba(16, 185, 129, 0.4)';
+                badge.style.background = 'rgba(16, 185, 129, 0.1)';
+            } catch (err) {
+                console.error(err);
+                document.getElementById('version-display').innerText = "OFLINE";
+                const badge = document.getElementById('api-status');
+                badge.innerText = 'Service Disconnected';
+                badge.style.color = '#EF4444';
+                badge.style.borderColor = 'rgba(239, 68, 68, 0.4)';
+                badge.style.background = 'rgba(239, 68, 68, 0.1)';
+                badge.style.boxShadow = 'none';
+                badge.style.animation = 'none';
+            }
+        }
+
+        function flattenObj(ob) {
+            let result = {};
+            for (const i in ob) {
+                if ((typeof ob[i]) === 'object' && !Array.isArray(ob[i])) {
+                    const temp = flattenObj(ob[i]);
+                    for (const j in temp) {
+                        result[i + '::' + j] = temp[j];
+                    }
+                } else {
+                    result[i] = ob[i];
+                }
+            }
+            return result;
+        }
+
+        function renderOffsets(offsets) {
+            const container = document.getElementById('offset-list-container');
+            container.innerHTML = '';
+            
+            const flat = flattenObj(offsets);
+            
+            for (const [key, value] of Object.entries(flat)) {
+                let hexValue = value;
+                if (typeof value === 'number') {
+                    hexValue = '0x' + value.toString(16).toUpperCase();
+                }
+
+                const item = document.createElement('div');
+                item.className = 'offset-item';
+                
+                const nameDiv = document.createElement('div');
+                nameDiv.className = 'offset-name';
+                nameDiv.innerText = key;
+                
+                const valDiv = document.createElement('div');
+                valDiv.className = 'offset-value';
+                
+                const hexDiv = document.createElement('div');
+                hexDiv.className = 'hex-code';
+                hexDiv.innerText = hexValue;
+                
+                const copyBtn = document.createElement('button');
+                copyBtn.className = 'copy-btn';
+                copyBtn.innerHTML = `
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    Copy
+                `;
+                copyBtn.onclick = () => copyToClipboard(hexValue);
+                
+                valDiv.appendChild(hexDiv);
+                valDiv.appendChild(copyBtn);
+                
+                item.appendChild(nameDiv);
+                item.appendChild(valDiv);
+                
+                container.appendChild(item);
+            }
+        }
+
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                const toast = document.getElementById('toast');
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 2000);
+            });
+        }
+
+        loadData();
+    </script>
+</body>
+</html>
