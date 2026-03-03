@@ -5,12 +5,6 @@
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--03%2019:51:16%20UTC-blue)
 ![Roblox Version](https://img.shields.io/badge/Roblox%20Version-version--760d064d05424689-orange)
 
-## 🌐 Live Dashboard
-View the active version, track API status, and download offsets on the **[Web Dashboard](https://pixelatedxp.github.io/roblox-offsets-daily/)**.
-
-![Dashboard Preview](assets/screenshot1.png)
-
-Automatically dumped daily Roblox offsets for educational and research purposes.
 
 ## Latest Information
 - **Last Successful Update:** 2026-03-03 19:51:16 UTC
@@ -33,6 +27,10 @@ Automatically dumped daily Roblox offsets for educational and research purposes.
 * **Player Classes:** LocalPlayer, Character, Team, UserId
 * **Visuals:** ViewMatrix, CameraPosition, FOV
 
+## Live Dashboard
+View the active version, track API status, and download offsets on the **[Web Dashboard](https://pixelatedxp.github.io/roblox-offsets-daily/)**.
+
+![Dashboard Preview](assets/screenshot1.png)
 ---
 ## Credits
 * **Dumper Tool:** [roblox-dumper](https://github.com/nopjo/roblox-dumper)
