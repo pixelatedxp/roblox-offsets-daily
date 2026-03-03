@@ -33,4 +33,4 @@ Automatically dumped daily Roblox offsets for educational and research purposes.
 * **Creator:** Jonah (jonahw on Discord)
 
 ## Disclaimer
-> ⚠️ **Disclaimer:** This repository is for educational and research purposes only. Using these offsets to modify game memory may violate the Terms of Service of the software being analyzed. The maintainer is not responsible for any bans or legal actions resulting from the use of this data.
+> **Disclaimer:** This repository is for educational and research purposes only. Using these offsets to modify game memory may violate the Terms of Service of the software being analyzed. The maintainer is not responsible for any bans or legal actions resulting from the use of this data.
