@@ -1,4 +1,8 @@
 --- Offset Change Log: 2026-03-04 (Unknown) ---
+[LOCALSCRIPT ] LocalScript.Hash               0XE8       → 0X1B8
+----------------------------------------
+
+--- Offset Change Log: 2026-03-04 (Unknown) ---
 [WORLD       ] World.Primitives               0X200      → 0X240
 ----------------------------------------
 

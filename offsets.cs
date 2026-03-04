@@ -195,7 +195,7 @@ namespace RobloxOffsets
     public static class LocalScript
     {
         public const ulong Bytecode = 0x1A8;
-        public const ulong Hash = 0xE8;
+        public const ulong Hash = 0x1B8;
     }
 
     public static class MaterialColors

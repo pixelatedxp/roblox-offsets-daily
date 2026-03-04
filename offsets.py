@@ -156,7 +156,7 @@ class Offsets:
 
     class LocalScript:
         Bytecode = 424
-        Hash = 232
+        Hash = 440
 
     class MaterialColors:
         Asphalt = 48

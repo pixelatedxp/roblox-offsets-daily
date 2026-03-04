@@ -1,13 +1,13 @@
 # Roblox Offsets Daily
 
+[![Website](https://img.shields.io/badge/Website-Live_Dashboard-00f0ff?style=flat&logo=github)](https://pixelatedxp.github.io/roblox-offsets-daily/)
 ![Status](https://img.shields.io/badge/Status-Functional-success)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--04%2013:54:23%20UTC-blue)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--04%2014:28:58%20UTC-blue)
 ![Roblox Version](https://img.shields.io/badge/Roblox%20Version-version--760d064d05424689-orange)
 
-Automatically dumped daily Roblox offsets for educational and research purposes.
 
 ## Latest Information
-- **Last Successful Update:** 2026-03-04 13:54:23 UTC
+- **Last Successful Update:** 2026-03-04 14:28:58 UTC
 - **Roblox Client Version:** version-760d064d05424689
 - **Update Frequency:** Every 12-24 hours (Max 26h)
 - **Current Status:** Functional (Successfully dumped)
@@ -27,6 +27,10 @@ Automatically dumped daily Roblox offsets for educational and research purposes.
 * **Player Classes:** LocalPlayer, Character, Team, UserId
 * **Visuals:** ViewMatrix, CameraPosition, FOV
 
+## Live Dashboard
+View the active version, track API status, and download offsets on the **[Web Dashboard](https://pixelatedxp.github.io/roblox-offsets-daily/)**.
+
+![Dashboard Preview](assets/screenshot1.png)
 ---
 ## Credits
 * **Dumper Tool:** [roblox-dumper](https://github.com/nopjo/roblox-dumper)
