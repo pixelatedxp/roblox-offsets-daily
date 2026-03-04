@@ -362,6 +362,6 @@ class Offsets:
 
     class World:
         Gravity = 464
-        Primitives = 512
+        Primitives = 576
         WorldSteps = 1632
 

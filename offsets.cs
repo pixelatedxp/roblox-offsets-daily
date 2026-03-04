@@ -451,7 +451,7 @@ namespace RobloxOffsets
     public static class World
     {
         public const ulong Gravity = 0x1D0;
-        public const ulong Primitives = 0x200;
+        public const ulong Primitives = 0x240;
         public const ulong WorldSteps = 0x660;
     }
 

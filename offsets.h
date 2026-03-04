@@ -408,7 +408,7 @@ namespace offsets {
 
     namespace World {
         inline constexpr uintptr_t Gravity = 0x1D0;
-        inline constexpr uintptr_t Primitives = 0x200;
+        inline constexpr uintptr_t Primitives = 0x240;
         inline constexpr uintptr_t WorldSteps = 0x660;
     }
 
