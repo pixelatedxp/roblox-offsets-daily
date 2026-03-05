@@ -1,3 +1,34 @@
+--- Offset Change Log: 2026-03-05 (Unknown) ---
+[DATAMODEL   ] DataModel.GameLoaded           0X5F8      → 0X600
+[DATAMODEL   ] DataModel.ServerIP             0X5E0      → 0X5E8
+[FAKEDATAMODEL] FakeDataModel.Pointer          0X7E83168  → 0X7F6C228
+[GUIOBJECT   ] GuiObject.Active               0X59C      → 0X5A0
+[GUIOBJECT   ] GuiObject.ClipsDescendants     0X59D      → 0X5A1
+[GUIOBJECT   ] GuiObject.Interactable         0X59F      → 0X5A3
+[GUIOBJECT   ] GuiObject.LayoutOrder          0X574      → 0X578
+[GUIOBJECT   ] GuiObject.Selectable           0X5A0      → 0X5A4
+[GUIOBJECT   ] GuiObject.SelectionOrder       0X590      → 0X594
+[GUIOBJECT   ] GuiObject.SizeConstraint       0X594      → 0X598
+[GUIOBJECT   ] GuiObject.Visible              0X5A1      → 0X5A5
+[GUIOBJECT   ] GuiObject.ZIndex               0X598      → 0X59C
+[HUMANOID    ] Humanoid.WalkSpeedCheck        0X3C0      → 0X3B8
+[LOCALSCRIPT ] LocalScript.Hash               0X1B8      → 0XE8
+[PLAYER      ] Player.LocaleId                0X6B8      → 0X6B0
+[SCRIPTCONTEXT] ScriptContext.RequireBypass    0X8E4      → 0X948
+[TASKSCHEDULER] TaskScheduler.JobEnd           0XD0       → [REMOVED]
+[TASKSCHEDULER] TaskScheduler.JobName          0X18       → [REMOVED]
+[TASKSCHEDULER] TaskScheduler.JobStart         0XC8       → [REMOVED]
+[TASKSCHEDULER] TaskScheduler.MaxFps           0XB0       → [REMOVED]
+[TASKSCHEDULER] TaskScheduler.Pointer          0X7F25E08  → [REMOVED]
+[VISUALENGINE] VisualEngine.Dimensions        0X720      → 0XA70
+[VISUALENGINE] VisualEngine.FakeDataModel     0X700      → 0XA50
+[VISUALENGINE] VisualEngine.Pointer           0X7A36CD8  → 0X7B1F068
+[VISUALENGINE] VisualEngine.RenderView        0X800      → 0XB50
+[VISUALENGINE] VisualEngine.ViewMatrix        0X120      → 0X140
+[WORKSPACE   ] Workspace.ReadOnlyGravity      0X940      → 0X978
+[WORLD       ] World.Primitives               0X240      → 0X200
+----------------------------------------
+
 --- Offset Change Log: 2026-03-04 (Unknown) ---
 [LOCALSCRIPT ] LocalScript.Hash               0XE8       → 0X1B8
 ----------------------------------------
