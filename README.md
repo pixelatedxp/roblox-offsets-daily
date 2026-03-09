@@ -2,12 +2,12 @@
 
 [![Website](https://img.shields.io/badge/Website-Live_Dashboard-00f0ff?style=flat&logo=github)](https://pixelatedxp.github.io/roblox-offsets-daily/)
 ![Status](https://img.shields.io/badge/Status-Functional-success)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--05%2014:58:35%20UTC-blue)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--09%2014:32:17%20UTC-blue)
 ![Roblox Version](https://img.shields.io/badge/Roblox%20Version-version--d599f7fc52a8404c-orange)
 
 
 ## Latest Information
-- **Last Successful Update:** 2026-03-05 14:58:35 UTC
+- **Last Successful Update:** 2026-03-09 14:32:17 UTC
 - **Roblox Client Version:** version-d599f7fc52a8404c
 - **Update Frequency:** Every 12-24 hours (Max 26h)
 - **Current Status:** Functional (Successfully dumped)

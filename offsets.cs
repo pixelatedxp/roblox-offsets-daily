@@ -361,7 +361,7 @@ namespace RobloxOffsets
         public const ulong Text = 0xD18;
         public const ulong TextColor3 = 0x1128;
         public const ulong TextDirection = 0xE38;
-        public const ulong TextScaled = 0xD88;
+        public const ulong TextScaled = 0x6;
         public const ulong TextSize = 0x1154;
         public const ulong TextStrokeColor3 = 0x1134;
         public const ulong TextStrokeTransparency = 0x1158;

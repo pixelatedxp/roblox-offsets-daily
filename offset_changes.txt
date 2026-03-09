@@ -1,3 +1,7 @@
+--- Offset Change Log: 2026-03-09 (Unknown) ---
+[TEXTBUTTON  ] TextButton.TextScaled          0XD88      → 0X6
+----------------------------------------
+
 --- Offset Change Log: 2026-03-05 (Unknown) ---
 [DATAMODEL   ] DataModel.GameLoaded           0X5F8      → 0X600
 [DATAMODEL   ] DataModel.ServerIP             0X5E0      → 0X5E8
