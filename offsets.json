@@ -288,7 +288,7 @@
       "Text": 3352,
       "TextColor3": 4392,
       "TextDirection": 3640,
-      "TextScaled": 6,
+      "TextScaled": 3464,
       "TextSize": 4436,
       "TextStrokeColor3": 4404,
       "TextStrokeTransparency": 4440,
@@ -355,7 +355,7 @@
     },
     "World": {
       "Gravity": 464,
-      "Primitives": 512,
+      "Primitives": 576,
       "WorldSteps": 1632
     }
   }

@@ -1,3 +1,8 @@
+--- Offset Change Log: 2026-03-10 (Unknown) ---
+[TEXTBUTTON  ] TextButton.TextScaled          0X6        → 0XD88
+[WORLD       ] World.Primitives               0X200      → 0X240
+----------------------------------------
+
 --- Offset Change Log: 2026-03-09 (Unknown) ---
 [TEXTBUTTON  ] TextButton.TextScaled          0XD88      → 0X6
 ----------------------------------------

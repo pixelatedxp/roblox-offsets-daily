@@ -326,7 +326,7 @@ namespace offsets {
         inline constexpr uintptr_t Text = 0xD18;
         inline constexpr uintptr_t TextColor3 = 0x1128;
         inline constexpr uintptr_t TextDirection = 0xE38;
-        inline constexpr uintptr_t TextScaled = 0x6;
+        inline constexpr uintptr_t TextScaled = 0xD88;
         inline constexpr uintptr_t TextSize = 0x1154;
         inline constexpr uintptr_t TextStrokeColor3 = 0x1134;
         inline constexpr uintptr_t TextStrokeTransparency = 0x1158;
@@ -400,7 +400,7 @@ namespace offsets {
 
     namespace World {
         inline constexpr uintptr_t Gravity = 0x1D0;
-        inline constexpr uintptr_t Primitives = 0x200;
+        inline constexpr uintptr_t Primitives = 0x240;
         inline constexpr uintptr_t WorldSteps = 0x660;
     }
 
