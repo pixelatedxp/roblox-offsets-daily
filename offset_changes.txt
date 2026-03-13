@@ -1,3 +1,65 @@
+--- Offset Change Log: 2026-03-13 (Unknown) ---
+[FAKEDATAMODEL] FakeDataModel.Pointer          0X7F6C228  → 0X81C2C38
+[HUMANOID    ] Humanoid.WalkSpeedCheck        0X3B8      → 0X3BC
+[LOCALSCRIPT ] LocalScript.Hash               0XE8       → 0X1B8
+[PLAYER      ] Player.AccountAge              0X30C      → 0X31C
+[PLAYER      ] Player.Character               0X380      → 0X398
+[PLAYER      ] Player.HealthDisplayDistance   0X338      → 0X348
+[PLAYER      ] Player.LocaleId                0X6B0      → 0X6C8
+[PLAYER      ] Player.NameDisplayDistance     0X344      → 0X354
+[PLAYER      ] Player.Team                    0X290      → 0X2A0
+[PLAYER      ] Player.TeamColor               0X350      → 0X360
+[PLAYER      ] Player.UserId                  0X2B8      → 0X2C8
+[SCRIPTCONTEXT] ScriptContext.RequireBypass    0X948      → 0XA39
+[TASKSCHEDULER] TaskScheduler.JobEnd           [NEW]      → 0XD0
+[TASKSCHEDULER] TaskScheduler.JobName          [NEW]      → 0X18
+[TASKSCHEDULER] TaskScheduler.JobStart         [NEW]      → 0XC8
+[TASKSCHEDULER] TaskScheduler.Pointer          [NEW]      → 0X82766C8
+[TEXTBUTTON  ] TextButton.AutoButtonColor     0XA04      → 0XA34
+[TEXTBUTTON  ] TextButton.ContentText         0XD18      → 0XD48
+[TEXTBUTTON  ] TextButton.Font                0X1140     → 0X1170
+[TEXTBUTTON  ] TextButton.LineHeight          0XD8C      → 0XDBC
+[TEXTBUTTON  ] TextButton.LocalizedText       0XD18      → 0XD48
+[TEXTBUTTON  ] TextButton.MaxVisibleGraphemes 0X114C     → 0X117C
+[TEXTBUTTON  ] TextButton.Modal               0XA05      → 0XA35
+[TEXTBUTTON  ] TextButton.RichText            0XE35      → 0XE65
+[TEXTBUTTON  ] TextButton.Selected            0XA06      → 0XA36
+[TEXTBUTTON  ] TextButton.Text                0XD18      → 0XD48
+[TEXTBUTTON  ] TextButton.TextColor3          0X1128     → 0X1158
+[TEXTBUTTON  ] TextButton.TextDirection       0XE38      → 0XE68
+[TEXTBUTTON  ] TextButton.TextScaled          0XD88      → 0XDB8
+[TEXTBUTTON  ] TextButton.TextSize            0X1154     → 0X1184
+[TEXTBUTTON  ] TextButton.TextStrokeColor3    0X1134     → 0X1164
+[TEXTBUTTON  ] TextButton.TextStrokeTransparency 0X1158     → 0X1188
+[TEXTBUTTON  ] TextButton.TextTransparency    0X115C     → 0X118C
+[TEXTBUTTON  ] TextButton.TextTruncate        0X1160     → 0X1190
+[TEXTBUTTON  ] TextButton.TextWrapped         0XDD8      → 0XE08
+[TEXTBUTTON  ] TextButton.TextXAlignment      0X1164     → 0X1194
+[TEXTBUTTON  ] TextButton.TextYAlignment      0XDD4      → 0XE04
+[TEXTLABEL   ] TextLabel.ContentText          0XA98      → 0XAC8
+[TEXTLABEL   ] TextLabel.Font                 0XEC0      → 0XEF0
+[TEXTLABEL   ] TextLabel.LineHeight           0XB0C      → 0XB3C
+[TEXTLABEL   ] TextLabel.LocalizedText        0XA98      → 0XAC8
+[TEXTLABEL   ] TextLabel.MaxVisibleGraphemes  0XECC      → 0XEFC
+[TEXTLABEL   ] TextLabel.RichText             0XBB5      → 0XBE5
+[TEXTLABEL   ] TextLabel.Text                 0XA98      → 0XAC8
+[TEXTLABEL   ] TextLabel.TextColor3           0XEA8      → 0XED8
+[TEXTLABEL   ] TextLabel.TextDirection        0XBB8      → 0XBE8
+[TEXTLABEL   ] TextLabel.TextScaled           0XB08      → 0XB38
+[TEXTLABEL   ] TextLabel.TextSize             0XED4      → 0XF04
+[TEXTLABEL   ] TextLabel.TextStrokeColor3     0XEB4      → 0XEE4
+[TEXTLABEL   ] TextLabel.TextStrokeTransparency 0XED8      → 0XF08
+[TEXTLABEL   ] TextLabel.TextTransparency     0XEDC      → 0XF0C
+[TEXTLABEL   ] TextLabel.TextTruncate         0XEE0      → 0XF10
+[TEXTLABEL   ] TextLabel.TextWrapped          0XB58      → 0XB88
+[TEXTLABEL   ] TextLabel.TextXAlignment       0XEE4      → 0XF14
+[TEXTLABEL   ] TextLabel.TextYAlignment       0XB54      → 0XB84
+[VISUALENGINE] VisualEngine.Pointer           0X7B1F068  → 0X7D78148
+[WORKSPACE   ] Workspace.CurrentCamera        0X460      → 0X468
+[WORKSPACE   ] Workspace.ReadOnlyGravity      0X978      → 0X988
+[WORKSPACE   ] Workspace.World                0X3D8      → 0X3E0
+----------------------------------------
+
 --- Offset Change Log: 2026-03-10 (Unknown) ---
 [TEXTBUTTON  ] TextButton.TextScaled          0X6        → 0XD88
 [WORLD       ] World.Primitives               0X200      → 0X240

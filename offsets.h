@@ -1,6 +1,6 @@
 /*
- * Roblox Version: version-d599f7fc52a8404c
- * Total Offsets: 274
+ * Roblox Version: version-b130242ed064436f
+ * Total Offsets: 278
  */
 
 #pragma once
@@ -8,7 +8,7 @@
 
 // clang-format off
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-d599f7fc52a8404c";
+    inline constexpr const char* roblox_version = "version-b130242ed064436f";
 
     namespace Atmosphere {
         inline constexpr uintptr_t Color = 0xD0;
@@ -67,7 +67,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x7F6C228;
+        inline constexpr uintptr_t Pointer = 0x81C2C38;
         inline constexpr uintptr_t RealDataModel = 0x1C0;
     }
 
@@ -125,7 +125,7 @@ namespace offsets {
         inline constexpr uintptr_t TargetPoint = 0x164;
         inline constexpr uintptr_t UseJumpPower = 0x1E3;
         inline constexpr uintptr_t WalkSpeed = 0x1D4;
-        inline constexpr uintptr_t WalkSpeedCheck = 0x3B8;
+        inline constexpr uintptr_t WalkSpeedCheck = 0x3BC;
         inline constexpr uintptr_t WalkToPoint = 0x17C;
     }
 
@@ -177,7 +177,7 @@ namespace offsets {
 
     namespace LocalScript {
         inline constexpr uintptr_t Bytecode = 0x1A8;
-        inline constexpr uintptr_t Hash = 0xE8;
+        inline constexpr uintptr_t Hash = 0x1B8;
     }
 
     namespace MaterialColors {
@@ -220,15 +220,15 @@ namespace offsets {
     }
 
     namespace Player {
-        inline constexpr uintptr_t AccountAge = 0x30C;
-        inline constexpr uintptr_t Character = 0x380;
+        inline constexpr uintptr_t AccountAge = 0x31C;
+        inline constexpr uintptr_t Character = 0x398;
         inline constexpr uintptr_t DisplayName = 0x130;
-        inline constexpr uintptr_t HealthDisplayDistance = 0x338;
-        inline constexpr uintptr_t LocaleId = 0x6B0;
-        inline constexpr uintptr_t NameDisplayDistance = 0x344;
-        inline constexpr uintptr_t Team = 0x290;
-        inline constexpr uintptr_t TeamColor = 0x350;
-        inline constexpr uintptr_t UserId = 0x2B8;
+        inline constexpr uintptr_t HealthDisplayDistance = 0x348;
+        inline constexpr uintptr_t LocaleId = 0x6C8;
+        inline constexpr uintptr_t NameDisplayDistance = 0x354;
+        inline constexpr uintptr_t Team = 0x2A0;
+        inline constexpr uintptr_t TeamColor = 0x360;
+        inline constexpr uintptr_t UserId = 0x2C8;
     }
 
     namespace Players {
@@ -270,7 +270,7 @@ namespace offsets {
     }
 
     namespace ScriptContext {
-        inline constexpr uintptr_t RequireBypass = 0x948;
+        inline constexpr uintptr_t RequireBypass = 0xA39;
     }
 
     namespace Seat {
@@ -299,6 +299,13 @@ namespace offsets {
         inline constexpr uintptr_t TextureId = 0x130;
     }
 
+    namespace TaskScheduler {
+        inline constexpr uintptr_t JobEnd = 0xD0;
+        inline constexpr uintptr_t JobName = 0x18;
+        inline constexpr uintptr_t JobStart = 0xC8;
+        inline constexpr uintptr_t Pointer = 0x82766C8;
+    }
+
     namespace Team {
         inline constexpr uintptr_t TeamColor = 0xD0;
     }
@@ -314,48 +321,48 @@ namespace offsets {
     }
 
     namespace TextButton {
-        inline constexpr uintptr_t AutoButtonColor = 0xA04;
-        inline constexpr uintptr_t ContentText = 0xD18;
-        inline constexpr uintptr_t Font = 0x1140;
-        inline constexpr uintptr_t LineHeight = 0xD8C;
-        inline constexpr uintptr_t LocalizedText = 0xD18;
-        inline constexpr uintptr_t MaxVisibleGraphemes = 0x114C;
-        inline constexpr uintptr_t Modal = 0xA05;
-        inline constexpr uintptr_t RichText = 0xE35;
-        inline constexpr uintptr_t Selected = 0xA06;
-        inline constexpr uintptr_t Text = 0xD18;
-        inline constexpr uintptr_t TextColor3 = 0x1128;
-        inline constexpr uintptr_t TextDirection = 0xE38;
-        inline constexpr uintptr_t TextScaled = 0xD88;
-        inline constexpr uintptr_t TextSize = 0x1154;
-        inline constexpr uintptr_t TextStrokeColor3 = 0x1134;
-        inline constexpr uintptr_t TextStrokeTransparency = 0x1158;
-        inline constexpr uintptr_t TextTransparency = 0x115C;
-        inline constexpr uintptr_t TextTruncate = 0x1160;
-        inline constexpr uintptr_t TextWrapped = 0xDD8;
-        inline constexpr uintptr_t TextXAlignment = 0x1164;
-        inline constexpr uintptr_t TextYAlignment = 0xDD4;
+        inline constexpr uintptr_t AutoButtonColor = 0xA34;
+        inline constexpr uintptr_t ContentText = 0xD48;
+        inline constexpr uintptr_t Font = 0x1170;
+        inline constexpr uintptr_t LineHeight = 0xDBC;
+        inline constexpr uintptr_t LocalizedText = 0xD48;
+        inline constexpr uintptr_t MaxVisibleGraphemes = 0x117C;
+        inline constexpr uintptr_t Modal = 0xA35;
+        inline constexpr uintptr_t RichText = 0xE65;
+        inline constexpr uintptr_t Selected = 0xA36;
+        inline constexpr uintptr_t Text = 0xD48;
+        inline constexpr uintptr_t TextColor3 = 0x1158;
+        inline constexpr uintptr_t TextDirection = 0xE68;
+        inline constexpr uintptr_t TextScaled = 0xDB8;
+        inline constexpr uintptr_t TextSize = 0x1184;
+        inline constexpr uintptr_t TextStrokeColor3 = 0x1164;
+        inline constexpr uintptr_t TextStrokeTransparency = 0x1188;
+        inline constexpr uintptr_t TextTransparency = 0x118C;
+        inline constexpr uintptr_t TextTruncate = 0x1190;
+        inline constexpr uintptr_t TextWrapped = 0xE08;
+        inline constexpr uintptr_t TextXAlignment = 0x1194;
+        inline constexpr uintptr_t TextYAlignment = 0xE04;
     }
 
     namespace TextLabel {
-        inline constexpr uintptr_t ContentText = 0xA98;
-        inline constexpr uintptr_t Font = 0xEC0;
-        inline constexpr uintptr_t LineHeight = 0xB0C;
-        inline constexpr uintptr_t LocalizedText = 0xA98;
-        inline constexpr uintptr_t MaxVisibleGraphemes = 0xECC;
-        inline constexpr uintptr_t RichText = 0xBB5;
-        inline constexpr uintptr_t Text = 0xA98;
-        inline constexpr uintptr_t TextColor3 = 0xEA8;
-        inline constexpr uintptr_t TextDirection = 0xBB8;
-        inline constexpr uintptr_t TextScaled = 0xB08;
-        inline constexpr uintptr_t TextSize = 0xED4;
-        inline constexpr uintptr_t TextStrokeColor3 = 0xEB4;
-        inline constexpr uintptr_t TextStrokeTransparency = 0xED8;
-        inline constexpr uintptr_t TextTransparency = 0xEDC;
-        inline constexpr uintptr_t TextTruncate = 0xEE0;
-        inline constexpr uintptr_t TextWrapped = 0xB58;
-        inline constexpr uintptr_t TextXAlignment = 0xEE4;
-        inline constexpr uintptr_t TextYAlignment = 0xB54;
+        inline constexpr uintptr_t ContentText = 0xAC8;
+        inline constexpr uintptr_t Font = 0xEF0;
+        inline constexpr uintptr_t LineHeight = 0xB3C;
+        inline constexpr uintptr_t LocalizedText = 0xAC8;
+        inline constexpr uintptr_t MaxVisibleGraphemes = 0xEFC;
+        inline constexpr uintptr_t RichText = 0xBE5;
+        inline constexpr uintptr_t Text = 0xAC8;
+        inline constexpr uintptr_t TextColor3 = 0xED8;
+        inline constexpr uintptr_t TextDirection = 0xBE8;
+        inline constexpr uintptr_t TextScaled = 0xB38;
+        inline constexpr uintptr_t TextSize = 0xF04;
+        inline constexpr uintptr_t TextStrokeColor3 = 0xEE4;
+        inline constexpr uintptr_t TextStrokeTransparency = 0xF08;
+        inline constexpr uintptr_t TextTransparency = 0xF0C;
+        inline constexpr uintptr_t TextTruncate = 0xF10;
+        inline constexpr uintptr_t TextWrapped = 0xB88;
+        inline constexpr uintptr_t TextXAlignment = 0xF14;
+        inline constexpr uintptr_t TextYAlignment = 0xB84;
     }
 
     namespace Tool {
@@ -387,15 +394,15 @@ namespace offsets {
     namespace VisualEngine {
         inline constexpr uintptr_t Dimensions = 0xA70;
         inline constexpr uintptr_t FakeDataModel = 0xA50;
-        inline constexpr uintptr_t Pointer = 0x7B1F068;
+        inline constexpr uintptr_t Pointer = 0x7D78148;
         inline constexpr uintptr_t RenderView = 0xB50;
         inline constexpr uintptr_t ViewMatrix = 0x140;
     }
 
     namespace Workspace {
-        inline constexpr uintptr_t CurrentCamera = 0x460;
-        inline constexpr uintptr_t ReadOnlyGravity = 0x978;
-        inline constexpr uintptr_t World = 0x3D8;
+        inline constexpr uintptr_t CurrentCamera = 0x468;
+        inline constexpr uintptr_t ReadOnlyGravity = 0x988;
+        inline constexpr uintptr_t World = 0x3E0;
     }
 
     namespace World {
