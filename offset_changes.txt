@@ -1,3 +1,72 @@
+--- Offset Change Log: 2026-03-24 (Unknown) ---
+[FAKEDATAMODEL] FakeDataModel.Pointer          0X81C2C38  → 0X81D3D08
+[GUIOBJECT   ] GuiObject.Active               0X5A0      → 0X5B0
+[GUIOBJECT   ] GuiObject.AnchorPoint          0X550      → 0X560
+[GUIOBJECT   ] GuiObject.AutomaticSize        0X558      → 0X568
+[GUIOBJECT   ] GuiObject.BackgroundColor3     0X538      → 0X548
+[GUIOBJECT   ] GuiObject.BackgroundTransparency 0X55C      → 0X56C
+[GUIOBJECT   ] GuiObject.BorderColor3         0X544      → 0X554
+[GUIOBJECT   ] GuiObject.BorderMode           0X560      → 0X570
+[GUIOBJECT   ] GuiObject.BorderSizePixel      0X564      → 0X574
+[GUIOBJECT   ] GuiObject.ClipsDescendants     0X5A1      → 0X5B1
+[GUIOBJECT   ] GuiObject.GuiState             0X570      → 0X580
+[GUIOBJECT   ] GuiObject.Interactable         0X5A3      → 0X5B3
+[GUIOBJECT   ] GuiObject.LayoutOrder          0X578      → 0X588
+[GUIOBJECT   ] GuiObject.Position             0X508      → 0X518
+[GUIOBJECT   ] GuiObject.Selectable           0X5A4      → 0X5B4
+[GUIOBJECT   ] GuiObject.SelectionOrder       0X594      → 0X5A4
+[GUIOBJECT   ] GuiObject.Size                 0X528      → 0X538
+[GUIOBJECT   ] GuiObject.SizeConstraint       0X598      → 0X5A8
+[GUIOBJECT   ] GuiObject.Visible              0X5A5      → 0X5B5
+[GUIOBJECT   ] GuiObject.ZIndex               0X59C      → 0X5AC
+[LOCALSCRIPT ] LocalScript.Hash               0X1B8      → 0XE8
+[MODULESCRIPT] ModuleScript.Hash              0XE8       → 0X160
+[SCRIPTCONTEXT] ScriptContext.RequireBypass    0XA39      → 0X930
+[TASKSCHEDULER] TaskScheduler.Pointer          0X82766C8  → 0X82879C8
+[TERRAIN     ] Terrain.MaterialColors         0X280      → 0X290
+[TEXTBUTTON  ] TextButton.AutoButtonColor     0XA34      → 0X9CC
+[TEXTBUTTON  ] TextButton.ContentText         0XD48      → 0XCE0
+[TEXTBUTTON  ] TextButton.Font                0X1170     → 0X1108
+[TEXTBUTTON  ] TextButton.LineHeight          0XDBC      → 0XD54
+[TEXTBUTTON  ] TextButton.LocalizedText       0XD48      → 0XCE0
+[TEXTBUTTON  ] TextButton.MaxVisibleGraphemes 0X117C     → 0X1114
+[TEXTBUTTON  ] TextButton.Modal               0XA35      → 0X9CD
+[TEXTBUTTON  ] TextButton.RichText            0XE65      → 0XDFD
+[TEXTBUTTON  ] TextButton.Selected            0XA36      → 0X9CE
+[TEXTBUTTON  ] TextButton.Text                0XD48      → 0XCE0
+[TEXTBUTTON  ] TextButton.TextColor3          0X1158     → 0X10F0
+[TEXTBUTTON  ] TextButton.TextDirection       0XE68      → 0XE00
+[TEXTBUTTON  ] TextButton.TextScaled          0XDB8      → 0XD50
+[TEXTBUTTON  ] TextButton.TextSize            0X1184     → 0X111C
+[TEXTBUTTON  ] TextButton.TextStrokeColor3    0X1164     → 0X10FC
+[TEXTBUTTON  ] TextButton.TextStrokeTransparency 0X1188     → 0X1120
+[TEXTBUTTON  ] TextButton.TextTransparency    0X118C     → 0X1124
+[TEXTBUTTON  ] TextButton.TextTruncate        0X1190     → 0X1128
+[TEXTBUTTON  ] TextButton.TextWrapped         0XE08      → 0XDA0
+[TEXTBUTTON  ] TextButton.TextXAlignment      0X1194     → 0X112C
+[TEXTBUTTON  ] TextButton.TextYAlignment      0XE04      → 0XD9C
+[TEXTLABEL   ] TextLabel.ContentText          0XAC8      → 0XA60
+[TEXTLABEL   ] TextLabel.Font                 0XEF0      → 0XE88
+[TEXTLABEL   ] TextLabel.LineHeight           0XB3C      → 0XAD4
+[TEXTLABEL   ] TextLabel.LocalizedText        0XAC8      → 0XA60
+[TEXTLABEL   ] TextLabel.MaxVisibleGraphemes  0XEFC      → 0XE94
+[TEXTLABEL   ] TextLabel.RichText             0XBE5      → 0XB7D
+[TEXTLABEL   ] TextLabel.Text                 0XAC8      → 0XA60
+[TEXTLABEL   ] TextLabel.TextColor3           0XED8      → 0XE70
+[TEXTLABEL   ] TextLabel.TextDirection        0XBE8      → 0XB80
+[TEXTLABEL   ] TextLabel.TextScaled           0XB38      → 0XAD0
+[TEXTLABEL   ] TextLabel.TextSize             0XF04      → 0XE9C
+[TEXTLABEL   ] TextLabel.TextStrokeColor3     0XEE4      → 0XE7C
+[TEXTLABEL   ] TextLabel.TextStrokeTransparency 0XF08      → 0XEA0
+[TEXTLABEL   ] TextLabel.TextTransparency     0XF0C      → 0XEA4
+[TEXTLABEL   ] TextLabel.TextTruncate         0XF10      → 0XEA8
+[TEXTLABEL   ] TextLabel.TextWrapped          0XB88      → 0XAD0
+[TEXTLABEL   ] TextLabel.TextXAlignment       0XF14      → 0XEAC
+[TEXTLABEL   ] TextLabel.TextYAlignment       0XB84      → 0XB1C
+[VISUALENGINE] VisualEngine.Pointer           0X7D78148  → 0X7D890C0
+[WORLD       ] World.Primitives               0X240      → 0X200
+----------------------------------------
+
 --- Offset Change Log: 2026-03-13 (Unknown) ---
 [FAKEDATAMODEL] FakeDataModel.Pointer          0X7F6C228  → 0X81C2C38
 [HUMANOID    ] Humanoid.WalkSpeedCheck        0X3B8      → 0X3BC
