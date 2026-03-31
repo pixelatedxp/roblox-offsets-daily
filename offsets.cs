@@ -232,7 +232,7 @@ namespace RobloxOffsets
     public static class ModuleScript
     {
         public const ulong Bytecode = 0x150;
-        public const ulong Hash = 0x160;
+        public const ulong Hash = 0xE8;
         public const ulong IsRobloxScript = 0x180;
     }
 
@@ -363,7 +363,7 @@ namespace RobloxOffsets
         public const ulong LineHeight = 0xD54;
         public const ulong LocalizedText = 0xCE0;
         public const ulong MaxVisibleGraphemes = 0x1114;
-        public const ulong Modal = 0x9CD;
+        public const ulong Modal = 0x918;
         public const ulong RichText = 0xDFD;
         public const ulong Selected = 0x9CE;
         public const ulong Text = 0xCE0;
@@ -375,7 +375,7 @@ namespace RobloxOffsets
         public const ulong TextStrokeTransparency = 0x1120;
         public const ulong TextTransparency = 0x1124;
         public const ulong TextTruncate = 0x1128;
-        public const ulong TextWrapped = 0xDA0;
+        public const ulong TextWrapped = 0xD50;
         public const ulong TextXAlignment = 0x112C;
         public const ulong TextYAlignment = 0xD9C;
     }

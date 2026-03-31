@@ -1,3 +1,9 @@
+--- Offset Change Log: 2026-03-31 (Unknown) ---
+[MODULESCRIPT] ModuleScript.Hash              0X160      → 0XE8
+[TEXTBUTTON  ] TextButton.Modal               0X9CD      → 0X918
+[TEXTBUTTON  ] TextButton.TextWrapped         0XDA0      → 0XD50
+----------------------------------------
+
 --- Offset Change Log: 2026-03-24 (Unknown) ---
 [FAKEDATAMODEL] FakeDataModel.Pointer          0X81C2C38  → 0X81D3D08
 [GUIOBJECT   ] GuiObject.Active               0X5A0      → 0X5B0

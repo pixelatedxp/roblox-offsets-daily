@@ -211,7 +211,7 @@ namespace offsets {
 
     namespace ModuleScript {
         inline constexpr uintptr_t Bytecode = 0x150;
-        inline constexpr uintptr_t Hash = 0x160;
+        inline constexpr uintptr_t Hash = 0xE8;
         inline constexpr uintptr_t IsRobloxScript = 0x180;
     }
 
@@ -327,7 +327,7 @@ namespace offsets {
         inline constexpr uintptr_t LineHeight = 0xD54;
         inline constexpr uintptr_t LocalizedText = 0xCE0;
         inline constexpr uintptr_t MaxVisibleGraphemes = 0x1114;
-        inline constexpr uintptr_t Modal = 0x9CD;
+        inline constexpr uintptr_t Modal = 0x918;
         inline constexpr uintptr_t RichText = 0xDFD;
         inline constexpr uintptr_t Selected = 0x9CE;
         inline constexpr uintptr_t Text = 0xCE0;
@@ -339,7 +339,7 @@ namespace offsets {
         inline constexpr uintptr_t TextStrokeTransparency = 0x1120;
         inline constexpr uintptr_t TextTransparency = 0x1124;
         inline constexpr uintptr_t TextTruncate = 0x1128;
-        inline constexpr uintptr_t TextWrapped = 0xDA0;
+        inline constexpr uintptr_t TextWrapped = 0xD50;
         inline constexpr uintptr_t TextXAlignment = 0x112C;
         inline constexpr uintptr_t TextYAlignment = 0xD9C;
     }

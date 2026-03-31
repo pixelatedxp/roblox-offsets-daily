@@ -187,7 +187,7 @@ class Offsets:
 
     class ModuleScript:
         Bytecode = 336
-        Hash = 352
+        Hash = 232
         IsRobloxScript = 384
 
     class MouseService:
@@ -288,7 +288,7 @@ class Offsets:
         LineHeight = 3412
         LocalizedText = 3296
         MaxVisibleGraphemes = 4372
-        Modal = 2509
+        Modal = 2328
         RichText = 3581
         Selected = 2510
         Text = 3296
@@ -300,7 +300,7 @@ class Offsets:
         TextStrokeTransparency = 4384
         TextTransparency = 4388
         TextTruncate = 4392
-        TextWrapped = 3488
+        TextWrapped = 3408
         TextXAlignment = 4396
         TextYAlignment = 3484
 
