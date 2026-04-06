@@ -1,6 +1,6 @@
 /*
- * Roblox Version: version-3696e24a0ac248de
- * Total Offsets: 278
+ * Roblox Version: version-689e359b09ad43b0
+ * Total Offsets: 270
  */
 
 using System;
@@ -9,7 +9,7 @@ namespace RobloxOffsets
 {
     public static class Metadata
     {
-        public const string RobloxVersion = "version-3696e24a0ac248de";
+        public const string RobloxVersion = "version-689e359b09ad43b0";
     }
 
     public static class Atmosphere
@@ -68,16 +68,16 @@ namespace RobloxOffsets
     {
         public const ulong CreatorId = 0x188;
         public const ulong GameId = 0x190;
-        public const ulong GameLoaded = 0x600;
+        public const ulong GameLoaded = 0x5F8;
         public const ulong JobId = 0x138;
         public const ulong PlaceId = 0x198;
-        public const ulong ServerIP = 0x5E8;
+        public const ulong ServerIP = 0x5E0;
         public const ulong Workspace = 0x178;
     }
 
     public static class FakeDataModel
     {
-        public const ulong Pointer = 0x81D3D08;
+        public const ulong Pointer = 0x834A988;
         public const ulong RealDataModel = 0x1C0;
     }
 
@@ -154,11 +154,11 @@ namespace RobloxOffsets
         public const ulong AttributeToNext = 0x58;
         public const ulong AttributeToValue = 0x18;
         public const ulong ChildrenEnd = 0x8;
-        public const ulong ChildrenStart = 0x70;
+        public const ulong ChildrenStart = 0x78;
         public const ulong ClassDescriptor = 0x18;
         public const ulong ClassName = 0x8;
         public const ulong Name = 0xB0;
-        public const ulong Parent = 0x68;
+        public const ulong Parent = 0x70;
     }
 
     public static class Lighting
@@ -248,9 +248,9 @@ namespace RobloxOffsets
         public const ulong DisplayName = 0x130;
         public const ulong HealthDisplayDistance = 0x348;
         public const ulong LocaleId = 0x6C8;
-        public const ulong NameDisplayDistance = 0x354;
+        public const ulong NameDisplayDistance = 0x358;
         public const ulong Team = 0x2A0;
-        public const ulong TeamColor = 0x360;
+        public const ulong TeamColor = 0x364;
         public const ulong UserId = 0x2C8;
     }
 
@@ -264,7 +264,7 @@ namespace RobloxOffsets
         public const ulong AssemblyAngularVelocity = 0xFC;
         public const ulong AssemblyLinearVelocity = 0xF0;
         public const ulong CFrame = 0xC0;
-        public const ulong Material = 0x246;
+        public const ulong Material = 0x22E;
         public const ulong Orientation = 0xC0;
         public const ulong Position = 0xE4;
         public const ulong PrimitiveFlags = 0x1AE;
@@ -299,7 +299,7 @@ namespace RobloxOffsets
 
     public static class ScriptContext
     {
-        public const ulong RequireBypass = 0x930;
+        public const ulong RequireBypass = 0x861;
     }
 
     public static class Seat
@@ -314,7 +314,7 @@ namespace RobloxOffsets
         public const ulong SkyboxBk = 0x110;
         public const ulong SkyboxDn = 0x140;
         public const ulong SkyboxFt = 0x170;
-        public const ulong SkyboxLf = 0x1A0;
+        public const ulong SkyboxLf = 0x148;
         public const ulong SkyboxOrientation = 0x250;
         public const ulong SkyboxRt = 0x1D0;
         public const ulong SkyboxUp = 0x200;
@@ -329,14 +329,6 @@ namespace RobloxOffsets
         public const ulong Offset = 0xD0;
         public const ulong Scale = 0xDC;
         public const ulong TextureId = 0x130;
-    }
-
-    public static class TaskScheduler
-    {
-        public const ulong JobEnd = 0xD0;
-        public const ulong JobName = 0x18;
-        public const ulong JobStart = 0xC8;
-        public const ulong Pointer = 0x82879C8;
     }
 
     public static class Team
@@ -363,7 +355,7 @@ namespace RobloxOffsets
         public const ulong LineHeight = 0xD54;
         public const ulong LocalizedText = 0xCE0;
         public const ulong MaxVisibleGraphemes = 0x1114;
-        public const ulong Modal = 0x918;
+        public const ulong Modal = 0x9CD;
         public const ulong RichText = 0xDFD;
         public const ulong Selected = 0x9CE;
         public const ulong Text = 0xCE0;
@@ -375,7 +367,7 @@ namespace RobloxOffsets
         public const ulong TextStrokeTransparency = 0x1120;
         public const ulong TextTransparency = 0x1124;
         public const ulong TextTruncate = 0x1128;
-        public const ulong TextWrapped = 0xD50;
+        public const ulong TextWrapped = 0xDA0;
         public const ulong TextXAlignment = 0x112C;
         public const ulong TextYAlignment = 0xD9C;
     }
@@ -397,23 +389,23 @@ namespace RobloxOffsets
         public const ulong TextStrokeTransparency = 0xEA0;
         public const ulong TextTransparency = 0xEA4;
         public const ulong TextTruncate = 0xEA8;
-        public const ulong TextWrapped = 0xAD0;
+        public const ulong TextWrapped = 0xB20;
         public const ulong TextXAlignment = 0xEAC;
         public const ulong TextYAlignment = 0xB1C;
     }
 
     public static class Tool
     {
-        public const ulong CanBeDropped = 0x4A0;
-        public const ulong Enabled = 0x4A1;
-        public const ulong Grip = 0x470;
-        public const ulong GripForward = 0x488;
-        public const ulong GripPos = 0x494;
-        public const ulong GripRight = 0x470;
-        public const ulong GripUp = 0x47C;
-        public const ulong ManualActivationOnly = 0x4A2;
-        public const ulong RequiresHandle = 0x4A3;
-        public const ulong Tooltip = 0x450;
+        public const ulong CanBeDropped = 0x4C0;
+        public const ulong Enabled = 0x4C1;
+        public const ulong Grip = 0x490;
+        public const ulong GripForward = 0x4A8;
+        public const ulong GripPos = 0x4B4;
+        public const ulong GripRight = 0x490;
+        public const ulong GripUp = 0x49C;
+        public const ulong ManualActivationOnly = 0x4C2;
+        public const ulong RequiresHandle = 0x4C3;
+        public const ulong Tooltip = 0x470;
     }
 
     public static class Value
@@ -433,25 +425,17 @@ namespace RobloxOffsets
 
     public static class VisualEngine
     {
-        public const ulong Dimensions = 0xA70;
-        public const ulong FakeDataModel = 0xA50;
-        public const ulong Pointer = 0x7D890C0;
-        public const ulong RenderView = 0xB50;
-        public const ulong ViewMatrix = 0x140;
+        public const ulong Dimensions = 0xA60;
+        public const ulong FakeDataModel = 0xA40;
+        public const ulong Pointer = 0x7EF81D8;
+        public const ulong RenderView = 0xB40;
+        public const ulong ViewMatrix = 0x130;
     }
 
     public static class Workspace
     {
-        public const ulong CurrentCamera = 0x468;
-        public const ulong ReadOnlyGravity = 0x988;
-        public const ulong World = 0x3E0;
-    }
-
-    public static class World
-    {
-        public const ulong Gravity = 0x1D0;
-        public const ulong Primitives = 0x200;
-        public const ulong WorldSteps = 0x660;
+        public const ulong CurrentCamera = 0x488;
+        public const ulong ReadOnlyGravity = 0x9B0;
     }
 
 } // namespace RobloxOffsets

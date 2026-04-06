@@ -1,3 +1,44 @@
+--- Offset Change Log: 2026-04-06 (Unknown) ---
+[DATAMODEL   ] DataModel.GameLoaded           0X600      → 0X5F8
+[DATAMODEL   ] DataModel.ServerIP             0X5E8      → 0X5E0
+[FAKEDATAMODEL] FakeDataModel.Pointer          0X81D3D08  → 0X834A988
+[INSTANCE    ] Instance.ChildrenStart         0X70       → 0X78
+[INSTANCE    ] Instance.Parent                0X68       → 0X70
+[PLAYER      ] Player.NameDisplayDistance     0X354      → 0X358
+[PLAYER      ] Player.TeamColor               0X360      → 0X364
+[PRIMITIVE   ] Primitive.Material             0X246      → 0X22E
+[SCRIPTCONTEXT] ScriptContext.RequireBypass    0X930      → 0X861
+[SKY         ] Sky.SkyboxLf                   0X1A0      → 0X148
+[TASKSCHEDULER] TaskScheduler.JobEnd           0XD0       → [REMOVED]
+[TASKSCHEDULER] TaskScheduler.JobName          0X18       → [REMOVED]
+[TASKSCHEDULER] TaskScheduler.JobStart         0XC8       → [REMOVED]
+[TASKSCHEDULER] TaskScheduler.Pointer          0X82879C8  → [REMOVED]
+[TEXTBUTTON  ] TextButton.Modal               0X918      → 0X9CD
+[TEXTBUTTON  ] TextButton.TextWrapped         0XD50      → 0XDA0
+[TEXTLABEL   ] TextLabel.TextWrapped          0XAD0      → 0XB20
+[TOOL        ] Tool.CanBeDropped              0X4A0      → 0X4C0
+[TOOL        ] Tool.Enabled                   0X4A1      → 0X4C1
+[TOOL        ] Tool.Grip                      0X470      → 0X490
+[TOOL        ] Tool.GripForward               0X488      → 0X4A8
+[TOOL        ] Tool.GripPos                   0X494      → 0X4B4
+[TOOL        ] Tool.GripRight                 0X470      → 0X490
+[TOOL        ] Tool.GripUp                    0X47C      → 0X49C
+[TOOL        ] Tool.ManualActivationOnly      0X4A2      → 0X4C2
+[TOOL        ] Tool.RequiresHandle            0X4A3      → 0X4C3
+[TOOL        ] Tool.Tooltip                   0X450      → 0X470
+[VISUALENGINE] VisualEngine.Dimensions        0XA70      → 0XA60
+[VISUALENGINE] VisualEngine.FakeDataModel     0XA50      → 0XA40
+[VISUALENGINE] VisualEngine.Pointer           0X7D890C0  → 0X7EF81D8
+[VISUALENGINE] VisualEngine.RenderView        0XB50      → 0XB40
+[VISUALENGINE] VisualEngine.ViewMatrix        0X140      → 0X130
+[WORKSPACE   ] Workspace.CurrentCamera        0X468      → 0X488
+[WORKSPACE   ] Workspace.ReadOnlyGravity      0X988      → 0X9B0
+[WORKSPACE   ] Workspace.World                0X3E0      → [REMOVED]
+[WORLD       ] World.Gravity                  0X1D0      → [REMOVED]
+[WORLD       ] World.Primitives               0X200      → [REMOVED]
+[WORLD       ] World.WorldSteps               0X660      → [REMOVED]
+----------------------------------------
+
 --- Offset Change Log: 2026-03-31 (Unknown) ---
 [MODULESCRIPT] ModuleScript.Hash              0X160      → 0XE8
 [TEXTBUTTON  ] TextButton.Modal               0X9CD      → 0X918

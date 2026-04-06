@@ -1,8 +1,8 @@
-# Roblox Version: version-3696e24a0ac248de
-# Total Offsets: 278
+# Roblox Version: version-689e359b09ad43b0
+# Total Offsets: 270
 
 class Offsets:
-    ROBLOX_VERSION = "version-3696e24a0ac248de"
+    ROBLOX_VERSION = "version-689e359b09ad43b0"
 
     class Atmosphere:
         Color = 208
@@ -47,14 +47,14 @@ class Offsets:
     class DataModel:
         CreatorId = 392
         GameId = 400
-        GameLoaded = 1536
+        GameLoaded = 1528
         JobId = 312
         PlaceId = 408
-        ServerIP = 1512
+        ServerIP = 1504
         Workspace = 376
 
     class FakeDataModel:
-        Pointer = 136133896
+        Pointer = 137669000
         RealDataModel = 448
 
     class GuiBase2D:
@@ -121,11 +121,11 @@ class Offsets:
         AttributeToNext = 88
         AttributeToValue = 24
         ChildrenEnd = 8
-        ChildrenStart = 112
+        ChildrenStart = 120
         ClassDescriptor = 24
         ClassName = 8
         Name = 176
-        Parent = 104
+        Parent = 112
 
     class Lighting:
         Ambient = 216
@@ -199,9 +199,9 @@ class Offsets:
         DisplayName = 304
         HealthDisplayDistance = 840
         LocaleId = 1736
-        NameDisplayDistance = 852
+        NameDisplayDistance = 856
         Team = 672
-        TeamColor = 864
+        TeamColor = 868
         UserId = 712
 
     class Players:
@@ -211,7 +211,7 @@ class Offsets:
         AssemblyAngularVelocity = 252
         AssemblyLinearVelocity = 240
         CFrame = 192
-        Material = 582
+        Material = 558
         Orientation = 192
         Position = 228
         PrimitiveFlags = 430
@@ -238,7 +238,7 @@ class Offsets:
         SkyboxValid = 653
 
     class ScriptContext:
-        RequireBypass = 2352
+        RequireBypass = 2145
 
     class Seat:
         Occupant = 544
@@ -249,7 +249,7 @@ class Offsets:
         SkyboxBk = 272
         SkyboxDn = 320
         SkyboxFt = 368
-        SkyboxLf = 416
+        SkyboxLf = 328
         SkyboxOrientation = 592
         SkyboxRt = 464
         SkyboxUp = 512
@@ -262,12 +262,6 @@ class Offsets:
         Offset = 208
         Scale = 220
         TextureId = 304
-
-    class TaskScheduler:
-        JobEnd = 208
-        JobName = 24
-        JobStart = 200
-        Pointer = 136870344
 
     class Team:
         TeamColor = 208
@@ -288,7 +282,7 @@ class Offsets:
         LineHeight = 3412
         LocalizedText = 3296
         MaxVisibleGraphemes = 4372
-        Modal = 2328
+        Modal = 2509
         RichText = 3581
         Selected = 2510
         Text = 3296
@@ -300,7 +294,7 @@ class Offsets:
         TextStrokeTransparency = 4384
         TextTransparency = 4388
         TextTruncate = 4392
-        TextWrapped = 3408
+        TextWrapped = 3488
         TextXAlignment = 4396
         TextYAlignment = 3484
 
@@ -320,21 +314,21 @@ class Offsets:
         TextStrokeTransparency = 3744
         TextTransparency = 3748
         TextTruncate = 3752
-        TextWrapped = 2768
+        TextWrapped = 2848
         TextXAlignment = 3756
         TextYAlignment = 2844
 
     class Tool:
-        CanBeDropped = 1184
-        Enabled = 1185
-        Grip = 1136
-        GripForward = 1160
-        GripPos = 1172
-        GripRight = 1136
-        GripUp = 1148
-        ManualActivationOnly = 1186
-        RequiresHandle = 1187
-        Tooltip = 1104
+        CanBeDropped = 1216
+        Enabled = 1217
+        Grip = 1168
+        GripForward = 1192
+        GripPos = 1204
+        GripRight = 1168
+        GripUp = 1180
+        ManualActivationOnly = 1218
+        RequiresHandle = 1219
+        Tooltip = 1136
 
     class Value:
         Value = 208
@@ -348,19 +342,13 @@ class Offsets:
         TurnSpeed = 592
 
     class VisualEngine:
-        Dimensions = 2672
-        FakeDataModel = 2640
-        Pointer = 131633344
-        RenderView = 2896
-        ViewMatrix = 320
+        Dimensions = 2656
+        FakeDataModel = 2624
+        Pointer = 133136856
+        RenderView = 2880
+        ViewMatrix = 304
 
     class Workspace:
-        CurrentCamera = 1128
-        ReadOnlyGravity = 2440
-        World = 992
-
-    class World:
-        Gravity = 464
-        Primitives = 512
-        WorldSteps = 1632
+        CurrentCamera = 1160
+        ReadOnlyGravity = 2480
 
