@@ -1,8 +1,8 @@
-# Roblox Version: version-689e359b09ad43b0
-# Total Offsets: 270
+# Roblox Version: version-26c90be22e0d4758
+# Total Offsets: 274
 
 class Offsets:
-    ROBLOX_VERSION = "version-689e359b09ad43b0"
+    ROBLOX_VERSION = "version-26c90be22e0d4758"
 
     class Atmosphere:
         Color = 208
@@ -54,7 +54,7 @@ class Offsets:
         Workspace = 376
 
     class FakeDataModel:
-        Pointer = 137669000
+        Pointer = 128045960
         RealDataModel = 448
 
     class GuiBase2D:
@@ -238,7 +238,7 @@ class Offsets:
         SkyboxValid = 653
 
     class ScriptContext:
-        RequireBypass = 2145
+        RequireBypass = 2288
 
     class Seat:
         Occupant = 544
@@ -249,7 +249,7 @@ class Offsets:
         SkyboxBk = 272
         SkyboxDn = 320
         SkyboxFt = 368
-        SkyboxLf = 328
+        SkyboxLf = 416
         SkyboxOrientation = 592
         SkyboxRt = 464
         SkyboxUp = 512
@@ -262,6 +262,12 @@ class Offsets:
         Offset = 208
         Scale = 220
         TextureId = 304
+
+    class TaskScheduler:
+        JobEnd = 208
+        JobName = 24
+        JobStart = 200
+        Pointer = 128929936
 
     class Team:
         TeamColor = 208
@@ -344,7 +350,7 @@ class Offsets:
     class VisualEngine:
         Dimensions = 2656
         FakeDataModel = 2624
-        Pointer = 133136856
+        Pointer = 123519064
         RenderView = 2880
         ViewMatrix = 304
 

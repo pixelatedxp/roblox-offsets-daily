@@ -1,6 +1,6 @@
 /*
- * Roblox Version: version-689e359b09ad43b0
- * Total Offsets: 270
+ * Roblox Version: version-26c90be22e0d4758
+ * Total Offsets: 274
  */
 
 #pragma once
@@ -8,7 +8,7 @@
 
 // clang-format off
 namespace offsets {
-    inline constexpr const char* roblox_version = "version-689e359b09ad43b0";
+    inline constexpr const char* roblox_version = "version-26c90be22e0d4758";
 
     namespace Atmosphere {
         inline constexpr uintptr_t Color = 0xD0;
@@ -67,7 +67,7 @@ namespace offsets {
     }
 
     namespace FakeDataModel {
-        inline constexpr uintptr_t Pointer = 0x834A988;
+        inline constexpr uintptr_t Pointer = 0x7A1D388;
         inline constexpr uintptr_t RealDataModel = 0x1C0;
     }
 
@@ -270,7 +270,7 @@ namespace offsets {
     }
 
     namespace ScriptContext {
-        inline constexpr uintptr_t RequireBypass = 0x861;
+        inline constexpr uintptr_t RequireBypass = 0x8F0;
     }
 
     namespace Seat {
@@ -283,7 +283,7 @@ namespace offsets {
         inline constexpr uintptr_t SkyboxBk = 0x110;
         inline constexpr uintptr_t SkyboxDn = 0x140;
         inline constexpr uintptr_t SkyboxFt = 0x170;
-        inline constexpr uintptr_t SkyboxLf = 0x148;
+        inline constexpr uintptr_t SkyboxLf = 0x1A0;
         inline constexpr uintptr_t SkyboxOrientation = 0x250;
         inline constexpr uintptr_t SkyboxRt = 0x1D0;
         inline constexpr uintptr_t SkyboxUp = 0x200;
@@ -297,6 +297,13 @@ namespace offsets {
         inline constexpr uintptr_t Offset = 0xD0;
         inline constexpr uintptr_t Scale = 0xDC;
         inline constexpr uintptr_t TextureId = 0x130;
+    }
+
+    namespace TaskScheduler {
+        inline constexpr uintptr_t JobEnd = 0xD0;
+        inline constexpr uintptr_t JobName = 0x18;
+        inline constexpr uintptr_t JobStart = 0xC8;
+        inline constexpr uintptr_t Pointer = 0x7AF5090;
     }
 
     namespace Team {
@@ -387,7 +394,7 @@ namespace offsets {
     namespace VisualEngine {
         inline constexpr uintptr_t Dimensions = 0xA60;
         inline constexpr uintptr_t FakeDataModel = 0xA40;
-        inline constexpr uintptr_t Pointer = 0x7EF81D8;
+        inline constexpr uintptr_t Pointer = 0x75CC058;
         inline constexpr uintptr_t RenderView = 0xB40;
         inline constexpr uintptr_t ViewMatrix = 0x130;
     }

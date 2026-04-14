@@ -1,3 +1,14 @@
+--- Offset Change Log: 2026-04-14 (Unknown) ---
+[FAKEDATAMODEL] FakeDataModel.Pointer          0X834A988  → 0X7A1D388
+[SCRIPTCONTEXT] ScriptContext.RequireBypass    0X861      → 0X8F0
+[SKY         ] Sky.SkyboxLf                   0X148      → 0X1A0
+[TASKSCHEDULER] TaskScheduler.JobEnd           [NEW]      → 0XD0
+[TASKSCHEDULER] TaskScheduler.JobName          [NEW]      → 0X18
+[TASKSCHEDULER] TaskScheduler.JobStart         [NEW]      → 0XC8
+[TASKSCHEDULER] TaskScheduler.Pointer          [NEW]      → 0X7AF5090
+[VISUALENGINE] VisualEngine.Pointer           0X7EF81D8  → 0X75CC058
+----------------------------------------
+
 --- Offset Change Log: 2026-04-06 (Unknown) ---
 [DATAMODEL   ] DataModel.GameLoaded           0X600      → 0X5F8
 [DATAMODEL   ] DataModel.ServerIP             0X5E8      → 0X5E0

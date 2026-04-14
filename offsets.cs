@@ -1,6 +1,6 @@
 /*
- * Roblox Version: version-689e359b09ad43b0
- * Total Offsets: 270
+ * Roblox Version: version-26c90be22e0d4758
+ * Total Offsets: 274
  */
 
 using System;
@@ -9,7 +9,7 @@ namespace RobloxOffsets
 {
     public static class Metadata
     {
-        public const string RobloxVersion = "version-689e359b09ad43b0";
+        public const string RobloxVersion = "version-26c90be22e0d4758";
     }
 
     public static class Atmosphere
@@ -77,7 +77,7 @@ namespace RobloxOffsets
 
     public static class FakeDataModel
     {
-        public const ulong Pointer = 0x834A988;
+        public const ulong Pointer = 0x7A1D388;
         public const ulong RealDataModel = 0x1C0;
     }
 
@@ -299,7 +299,7 @@ namespace RobloxOffsets
 
     public static class ScriptContext
     {
-        public const ulong RequireBypass = 0x861;
+        public const ulong RequireBypass = 0x8F0;
     }
 
     public static class Seat
@@ -314,7 +314,7 @@ namespace RobloxOffsets
         public const ulong SkyboxBk = 0x110;
         public const ulong SkyboxDn = 0x140;
         public const ulong SkyboxFt = 0x170;
-        public const ulong SkyboxLf = 0x148;
+        public const ulong SkyboxLf = 0x1A0;
         public const ulong SkyboxOrientation = 0x250;
         public const ulong SkyboxRt = 0x1D0;
         public const ulong SkyboxUp = 0x200;
@@ -329,6 +329,14 @@ namespace RobloxOffsets
         public const ulong Offset = 0xD0;
         public const ulong Scale = 0xDC;
         public const ulong TextureId = 0x130;
+    }
+
+    public static class TaskScheduler
+    {
+        public const ulong JobEnd = 0xD0;
+        public const ulong JobName = 0x18;
+        public const ulong JobStart = 0xC8;
+        public const ulong Pointer = 0x7AF5090;
     }
 
     public static class Team
@@ -427,7 +435,7 @@ namespace RobloxOffsets
     {
         public const ulong Dimensions = 0xA60;
         public const ulong FakeDataModel = 0xA40;
-        public const ulong Pointer = 0x7EF81D8;
+        public const ulong Pointer = 0x75CC058;
         public const ulong RenderView = 0xB40;
         public const ulong ViewMatrix = 0x130;
     }

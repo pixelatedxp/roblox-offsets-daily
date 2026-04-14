@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "roblox_version": "version-689e359b09ad43b0",
-    "total_offsets": 270
+    "roblox_version": "version-26c90be22e0d4758",
+    "total_offsets": 274
   },
   "offsets": {
     "Atmosphere": {
@@ -54,7 +54,7 @@
       "Workspace": 376
     },
     "FakeDataModel": {
-      "Pointer": 137669000,
+      "Pointer": 128045960,
       "RealDataModel": 448
     },
     "GuiBase2D": {
@@ -238,7 +238,7 @@
       "SkyboxValid": 653
     },
     "ScriptContext": {
-      "RequireBypass": 2145
+      "RequireBypass": 2288
     },
     "Seat": {
       "Occupant": 544
@@ -249,7 +249,7 @@
       "SkyboxBk": 272,
       "SkyboxDn": 320,
       "SkyboxFt": 368,
-      "SkyboxLf": 328,
+      "SkyboxLf": 416,
       "SkyboxOrientation": 592,
       "SkyboxRt": 464,
       "SkyboxUp": 512,
@@ -262,6 +262,12 @@
       "Offset": 208,
       "Scale": 220,
       "TextureId": 304
+    },
+    "TaskScheduler": {
+      "JobEnd": 208,
+      "JobName": 24,
+      "JobStart": 200,
+      "Pointer": 128929936
     },
     "Team": {
       "TeamColor": 208
@@ -344,7 +350,7 @@
     "VisualEngine": {
       "Dimensions": 2656,
       "FakeDataModel": 2624,
-      "Pointer": 133136856,
+      "Pointer": 123519064,
       "RenderView": 2880,
       "ViewMatrix": 304
     },
