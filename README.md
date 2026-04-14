@@ -9,7 +9,7 @@
 ## Latest Information
 - **Last Successful Update:** 2026-04-14 08:48:46 UTC
 - **Roblox Client Version:** version-26c90be22e0d4758
-- **Update Frequency:** Every 12h - 1 week (Offsets are updated regularly and guaranteed functional. Since Roblox pushes updates every Wednesday, updates will occur within 12h to 1 week of a Roblox push.)
+- **Update Frequency:** Every 12h - 1 week (Offsets are always updated and functional. Updates occur within 12 hours to 1 week of the last successful update.)
 - **Current Status:** Functional (Successfully dumped)
 
 ---
